@@ -1,0 +1,17 @@
+pycache/
+*.pyc
+__pycache__/
+
+venv/
+.venv/
+env/
+
+Pipfile.lock
+
+.streamlit/
+.DS_Store
+.sublime-
+
+.env
+
+chroma.sqlite3
