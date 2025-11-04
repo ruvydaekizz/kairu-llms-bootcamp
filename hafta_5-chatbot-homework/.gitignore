@@ -1,0 +1,59 @@
+# Python cache ve derleme çıktıları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortam klasörleri
+venv/
+env/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# IDE / Editor dosyaları
+.vscode/
+.idea/
+*.code-workspace
+
+# Ortam değişkenleri
+.env
+*.env
+
+# Kullanıcı verileri ve loglar
+data/*
+!data/.gitkeep   # data klasörünün boş kalmasını sağla ama Git'e izini bırak
+*.csv
+*.json
+
+# Streamlit cache
+.streamlit/
+.streamlit/secrets.toml
+
+# macOS / Windows gereksiz dosyalar
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
+logs/
+log/
+
+# PyInstaller / build çıktıları
+build/
+dist/
+*.spec
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Backup veya temp dosyalar
+*.bak
+*.tmp
+*.swp
+
+# VSCode dosyaları
+*.history/
